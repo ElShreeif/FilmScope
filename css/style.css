@@ -78,9 +78,8 @@ header .btn {
  border: none;
  outline: none;
 }
-.navbar ul li button i {
+.navbar ul li button {
  margin: 4px;
- font-size: 20px;
  height: 50px;
  width: 50px;
  background-color: var(--grey);
@@ -91,6 +90,9 @@ header .btn {
  border-radius: 50%;
  cursor: pointer;
  color: var(--black3);
+}
+.navbar ul li button svg {
+ font-size: 20px;
 }
 .navbar .navbar-toggler {
  color: var(--black) !important;
@@ -104,7 +106,7 @@ header .btn {
 .darkmode #theme .fa-sun {
  display: flex;
 }
-.navbar ul li i:hover {
+.navbar ul li button:hover {
  border: 1px solid var(--red);
 }
 .navbar .navbar-toggle {
