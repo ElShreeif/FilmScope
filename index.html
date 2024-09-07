@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FilmScope</title>
+  <link rel="icon" href="imgs/shorticonpop.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+  />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+  />
+ </head>
+ <body>
+  <header>
+   <nav class="navbar navbar-expand-lg pt-4 pb-5">
+    <div class="container">
+     <a class="navbar-brand fw-bold fs-3" href="#">FilmScope</a>
+     <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+     >
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav fw-bold ms-auto mb-2 fs-5 mb-lg-0">
+       <li class="nav-item">
+        <a class="nav-link p-lg-3" aria-current="page" href="#home">Home</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link p-lg-3" href="#movies">Movies</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link p-lg-3" href="#about">About</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link p-lg-3" href="#contact">Contact</a>
+       </li>
+       <li class="nav-item">
+        <a
+         class="p-lg-2 my-2 mx-0 mx-lg-3 btn btn-primary fw-bold main-btn"
+         href="#"
+         >Login</a
+        >
+       </li>
+       <li class="nav-item m-auto">
+        <button class="bg-transparent" id="theme">
+         <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+        </button>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+   <section
+    class="home pt-5 pb-5 d-flex align-items-center justify-content-center"
+    id="home"
+   >
+    <div class="container">
+     <div class="row">
+      <div class="title col-lg text-center text-md-start">
+       <h3 class="fw-bold fs-1 lh-base mt-lg-3">
+        Discover, rate, and share! At FilmScope, join our community to discover
+        new films
+       </h3>
+       <p class="fs-6 lh-sm mt-lg-3">
+        Discover the latest movie reviews, ratings, and recommendations. Whether
+        you're into action, drama, or indie films!
+       </p>
+       <a
+        class="mt-lg-3 p-lg-3 btn btn-primary fw-bold main-btn btn-lg"
+        href="#"
+        >Join Us</a
+       >
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+       <div class="image">
+        <img src="imgs/popcorn.jpg" alt="" />
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </header>
+  <div class="movies pt-5" id="movies">
+   <h2 class="fw-bold fs-2 mb-5 text-center">Movies</h2>
+   <div class="container">
+    <div class="row pb-5 d-flex align-items-center justify-content-center">
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie1.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">Fast & Ferious 7</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie2.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">Black Adam</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie3.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">Sky Scraper</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie4.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">Faster</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie5.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">F9</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+     <div class="card m-3" style="width: 18rem">
+      <img src="/imgs/movies/movie6.jfif" class="card-img mt-3" alt="..." />
+      <div class="card-body">
+       <h5 class="card-title">Rampage</h5>
+       <p class="text-black-50">Action / Drama</p>
+       <h6>Description</h6>
+       <p class="card-text text-black-50">
+        Dive into heart-pounding, adrenaline-fueled movies packed with intense
+        sequences and thrilling stunts. Action films keep you on the edge of
+        your seat from start to finish!
+       </p>
+       <div class="icons grid gap-3 mt-3 fs-5">
+        <a href="#" class="btn btn-outline-danger p-2 g-col-3">Watch Trailer</a>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-comment"></i> </span>
+        <span class="p-2 g-col-3">
+         <i class="fa-solid fa-share"></i>
+        </span>
+        <span class="p-2 g-col-3"> <i class="fa-solid fa-bookmark"></i> </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="about" id="about">
+   <div class="container">
+    <div class="text-start pt-5 pb-5">
+     <h3 class="fs-1 fw-bold">About Us</h3>
+     <p class="fs-4 lh-md">
+      Welcome to FilmScope, your ultimate destination for discovering,
+      reviewing, and discussing movies! Whether you're a casual moviegoer or a
+      dedicated cinephile, FilmScope is designed to bring the world of cinema
+      right to your fingertips. Our mission is to provide a platform where movie
+      lovers can explore films from all genres, read honest reviews, and share
+      their own opinions
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="footer pt-5 pb-5 text-center text-md-start" id="contact">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-6 col-lg-4">
+      <div class="info">
+       <img src="images/logo (1).png" alt="" class="mb-4" />
+       <p class="logo mb-4 fs-3 fw-bold">FilmScope</p>
+       <div class="copyright">
+        <div>&copy;2024 - <span class="fw-bold">Ammar ElShreif</span></div>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-2">
+      <div class="links">
+       <h5 class="text-light">Links</h5>
+       <ul class="list-unstyled lh-lg">
+        <li class="active fw-bold">Home</li>
+        <li>Our Services</li>
+        <li>Portflio</li>
+        <li>Testimonials</li>
+        <li>Support</li>
+        <li>Terms and condition</li>
+       </ul>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-2">
+      <div class="links">
+       <h5 class="text-light">About Us</h5>
+       <ul class="list-unstyled lh-lg">
+        <li class="active fw-bold">Sign In</li>
+        <li>Register</li>
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>Contact</li>
+       </ul>
+      </div>
+     </div>
+     <div class="social col-md-6 col-lg-4">
+      <h5 class="pt-4">Follow Us on Social Media!</h5>
+      <p class="lh-md mt-2 mb-3">
+       Stay connected with FilmScope on social media for the latest movie
+       reviews, updates, and behind-the-scenes content! Join our community of
+       film lovers and never miss out on exciting recommendations
+      </p>
+      <ul class="list-unstyled d-flex align-items-center">
+       <li class="mx-2 fs-4"><i class="fa-brands fa-facebook"></i></li>
+       <li class="mx-2 fs-4"><i class="fa-brands fa-x-twitter"></i></li>
+       <li class="mx-2 fs-4"><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>

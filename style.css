@@ -1,0 +1,184 @@
+:root {
+ --red: #cc0f1f;
+ --black: #000;
+ --black2: #181818;
+ --black3: #262626;
+ --white: #fff;
+ --grey: #ddd;
+ --background: linear-gradient(
+  to right,
+  rgb(214, 31, 15, 0.01),
+  rgb(214, 31, 15, 0.1)
+ );
+ --background2: linear-gradient(
+  to left,
+  rgb(214, 31, 15, 0.01),
+  rgb(214, 31, 15, 0.1)
+ );
+ --background3: linear-gradient(
+  to top,
+  rgb(214, 31, 15, 0.01),
+  rgb(214, 31, 15, 0.1)
+ );
+ --background4: linear-gradient(
+  to bottom,
+  rgb(214, 31, 15, 0.01),
+  rgb(214, 31, 15, 0.1)
+ );
+}
+body.darkmode {
+ --black: #fff;
+ --black2: #ddd;
+ --black3: #9f9f9f;
+ --white: #000;
+ --grey: #262626;
+ --background: #171717;
+ --background2: #111111;
+ --background3: #1d1d1d;
+ --background4: #151515;
+}
+* {
+ transition: all 200ms ease;
+}
+body {
+ font-family: "Open Sans", sans-serif;
+}
+::-webkit-scrollbar {
+ width: 12px;
+}
+::-webkit-scrollbar-track {
+ background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+ background: #292929;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: #555;
+}
+header {
+ background: var(--background);
+}
+.image img {
+ max-width: 600px;
+ width: 98%;
+ border-radius: 20px;
+}
+header .btn {
+ color: #fff !important;
+ background-color: var(--red) !important;
+ border: none !important;
+}
+.btn:hover {
+ background-color: #820b15 !important;
+}
+.navbar .navbar-nav .nav-link {
+ color: var(--black3);
+}
+.navbar ul li button {
+ border: none;
+ outline: none;
+}
+.navbar ul li button i {
+ margin: 4px;
+ font-size: 20px;
+ height: 50px;
+ width: 50px;
+ background-color: var(--grey);
+ text-align: center;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ border-radius: 50%;
+ cursor: pointer;
+ color: var(--black3);
+}
+.navbar .navbar-toggler {
+ color: var(--black) !important;
+}
+.navbar #theme .fa-sun {
+ display: none;
+}
+.darkmode #theme .fa-moon {
+ display: none;
+}
+.darkmode #theme .fa-sun {
+ display: flex;
+}
+.navbar ul li i:hover {
+ border: 1px solid var(--red);
+}
+.navbar .navbar-toggle {
+ color: white;
+ border-color: white;
+ font-size: 25px;
+}
+.navbar .navbar-nav .nav-link:hover {
+ color: var(--red);
+}
+.navbar .navbar-brand {
+ color: var(--black);
+}
+.home {
+ min-height: calc(100vh - 140px);
+}
+.home h3 {
+ color: var(--black);
+}
+.home p {
+ color: var(--black3);
+}
+.movies {
+ background: var(--background3);
+}
+.movies > h2 {
+ color: var(--black) !important;
+}
+.card {
+ background: var(--white) !important;
+ box-shadow: 0px 0px 4px #000;
+ color: var(--black) !important;
+}
+.card .card-body h5,
+h6 {
+ color: var(--black) !important;
+}
+.card .card-body p {
+ color: var(--black3) !important;
+}
+.card:hover {
+ scale: 1.03;
+}
+.icons i {
+ cursor: pointer;
+}
+.about {
+ background-color: var(--white);
+}
+.about h3 {
+ color: var(--black);
+}
+.about p {
+ color: var(--black3) !important;
+}
+.footer {
+ background: var(--background4);
+ color: var(--black3);
+}
+ul li {
+ cursor: pointer;
+}
+.active {
+ color: var(--black);
+}
+.footer p {
+ color: var(--black3);
+}
+.footer .logo {
+ color: var(--black);
+}
+.footer .social h5 {
+ color: var(--black);
+}
+.footer .social p {
+ color: var(--black3) !important;
+}
